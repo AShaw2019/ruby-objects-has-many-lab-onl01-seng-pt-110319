@@ -6,9 +6,6 @@ class Artist
     @name = name
     @songs = song
   end
-    @name = "Adele"
-    @songs = "hello"
-    
     
   def songs
     @songs
