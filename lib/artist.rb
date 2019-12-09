@@ -31,4 +31,4 @@ class Artist
 end 
 
 adele = Artist.new("adele")
-adele.add
+adele.add_song
