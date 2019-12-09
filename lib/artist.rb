@@ -8,7 +8,7 @@ class Artist
   end
 
   def songs
-    @songs
+    @songs = (adele.songs = ["hello"])
   end
 
   def add_song(song)
