@@ -5,7 +5,7 @@ class Song
     @name = name
      end
  
-  def song 
+  def new  
     @@all = [song, song2]
   end
   
