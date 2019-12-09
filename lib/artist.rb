@@ -29,3 +29,5 @@ class Artist
   end
 
 end 
+
+adele.songs = ["hello"]
