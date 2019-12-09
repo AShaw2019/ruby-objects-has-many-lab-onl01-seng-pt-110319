@@ -30,4 +30,3 @@ class Artist
 
 end 
 
-adele.songs = ["hello"]
