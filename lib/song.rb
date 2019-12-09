@@ -5,7 +5,8 @@ class Song
     @name = name
      end
  
- def song.all
+ def song
+   Song.all = @@all
     @@all = []
   end
   
