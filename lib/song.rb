@@ -6,9 +6,8 @@ class Song
   end
 
   def artist_name
-    if @@all = []
-    else
-     nil
+     @@all = []
+   
     end
   end
 end
