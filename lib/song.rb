@@ -3,13 +3,9 @@ class Song
 
   def initialize(name)
     @name = name
+    @@all << song
      end
  
- def song
-   Song.all = @@all
-    @@all = []
-  end
-  
   def artist_name
     if @artist == nil
       return nil
