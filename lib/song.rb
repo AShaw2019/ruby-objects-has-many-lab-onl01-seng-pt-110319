@@ -5,7 +5,10 @@ class Song
     @name = name
      end
  
-  def 
+  def song 
+    @@all = [song, song2]
+  end
+  
   def artist_name
     if @artist == nil
       return nil
