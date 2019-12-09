@@ -30,4 +30,4 @@ class Artist
 
 end 
 
-adele = 
+adele = Artist.new
