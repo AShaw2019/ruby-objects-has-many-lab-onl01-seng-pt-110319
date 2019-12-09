@@ -6,7 +6,7 @@ class Song
      end
  
   def new  
-    @@all = Song.all
+    @@all 
     Song.all = []
   end
   
