@@ -3,7 +3,7 @@ class Artist
   @@song_count = 1
   
   def initialize(name)
-    @name = Artist.new
+    @name = name
     @songs = ["hello"]
   end
 
