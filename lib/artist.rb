@@ -1,5 +1,5 @@
 class Artist
-  attr_accessor :adele
+  attr_accessor :name = "Adele"
   @@song_count = 1
   
   def initialize(name)
