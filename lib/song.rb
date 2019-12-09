@@ -12,6 +12,7 @@ class Song
   end
   
   def artist_name
+    binding.pry
     if @artist == nil
       return nil
     else
