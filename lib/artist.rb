@@ -9,7 +9,6 @@ class Artist
  
   def songs
     @songs = Song.all 
-    @@all
   end
   
   def add_song(song)
