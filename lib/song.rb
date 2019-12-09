@@ -8,6 +8,10 @@ class Song
     @name = name
      end
  
+ def self.all
+   @@all
+ end
+ 
   def new  
     @@all 
     Song.all = []
