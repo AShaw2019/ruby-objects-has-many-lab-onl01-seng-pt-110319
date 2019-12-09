@@ -6,7 +6,8 @@ class Song
      end
  
   def new  
-    @@all = [song, song2]
+    @@all = []
+    Song.all << @@all
   end
   
   def artist_name
