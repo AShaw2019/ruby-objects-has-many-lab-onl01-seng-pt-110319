@@ -31,3 +31,4 @@ class Artist
 end 
 
 adele = Artist.new("adele")
+Adele
